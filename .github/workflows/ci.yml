@@ -23,5 +23,5 @@ jobs:
       - name: Deploy step (simulé ici)
         run: |
           echo "Déploiement en cours..."
-          ls -la build
+          #ls -la build
 
