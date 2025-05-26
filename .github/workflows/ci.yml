@@ -17,11 +17,11 @@ jobs:
       - name: Build step (simulé ici)
         run: |
           echo "Build du projet..."
-          #mkdir -p build
-          #cp index.html build/
+          mkdir -p build
+          cp index.html build/
 
       - name: Deploy step (simulé ici)
         run: |
           echo "Déploiement en cours..."
-          #ls -la build
+          ls -la build
 
